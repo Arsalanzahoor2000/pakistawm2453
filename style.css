@@ -1,0 +1,286 @@
+.navbar{
+    margin-left: 50px;
+    margin-top: 10px;
+
+}
+
+.nav-link{
+    color: #16560F;
+    font-size: 16px;
+    font-weight: bold;
+}
+.logo{
+    height: 250px;
+    position: absolute;
+    top: -100px;
+    right: 100px;
+}
+#search{
+    border: 5px solid #16560F;
+    width: 400px;
+    border-radius: 35px;
+    position: absolute;
+    left: 30%;
+    top: 20px;
+}
+.searchflex{
+    flex-wrap: wrap;
+}
+.carousel-inner{
+    height: 30%;
+}
+.navbar-brand{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    color: #427900 !important;
+}
+
+#input{
+    width: 500px;
+    border-radius: 20px ;
+    outline: none;
+    
+
+}
+.pakhead{
+    text-align: center;
+}
+.pakheadpara{
+    line-height: 30px;
+    width: 80%;
+    margin: 0 auto;
+}
+#more{
+    display: none;
+}
+#myBtn:hover{
+    color: #ffffff;
+    background-color: #427900;
+    outline: none;
+}
+#myBtn{
+    width: 100px;
+    margin: 0px 5px;
+    margin-left: 46.5%;
+}
+.divbutt{
+    display: flex;
+    justify-content: center;
+}
+
+#btn{
+    border-radius: 5px;
+    padding: 3px 8px;
+    border: none;
+    background-color: #427900;
+    color: white;
+}
+.inpsearch{
+    margin-right: 500px;
+}
+
+@media screen and (max-width: 720px) {
+    #search {
+      margin-top: 50px;
+      margin-left: -20px;
+      width: 100px;
+    }
+    
+    .logo{
+        position: absolute;
+        left: 150px;
+        height: 350px;
+        margin-top: -60px;
+        margin-left: -80px;
+    }
+
+    /* .navbar-toggler-icon{
+        /* margin-left: -30px; */
+        /* margin-top: 60px; */
+    }
+    */
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.diva h1{
+    text-align: center;
+
+}
+.diva p{
+    text-align: center;
+    line-height: 10px;
+
+}
+.divaa{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+}
+.divaa img{
+    height: 30vh;
+    width: 400px;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+.divaa1 h2{
+    position: relative;
+    text-align: center;
+    top: -70%;
+    opacity: 1;
+}
+.divaa img:hover, {
+    opacity: 1;
+    color: #000;
+}
+
+/* .divc{
+    margin-left: 460px;
+}
+.divc img{
+    height: 30vh;
+    width: 600px;
+    opacity: 0.8;
+    transition: 0.3s;
+
+}
+.divc h2{
+    position: relative;
+    margin-left: 230px;
+    margin-top: -180px;
+    transition: 1s;
+    color: #16560F;
+}
+.divc img:hover {
+    opacity: 1;
+    color: #000;
+} */
+.office{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    background-color: #25272E;
+    color: #BBBBBB;
+    line-height: 30px;
+}
+.office div{
+    margin: 0 100px;
+}
+.office1 i{
+    color: #427900;
+    margin: 0 5px;
+}
+.office3 i{
+    color: #316DC3;
+    font-size: 20px;
+    margin-left: 5px;
+}
+.copyright{
+    background-color: #316DD9;
+    color: white;
+    justify-content: center;
+    padding: 10px 0;
+    font-size: 13px;
+}
+.top{
+    position: fixed;
+    right: 30px;
+    bottom: 50px;
+}
+.trending{
+    text-align: center;
+    color: #427900;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.slider {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    margin: auto;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+  
+  .slider::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .slider .slide {
+    display: flex;
+    position: absolute;
+    left: 0;
+    transition: 0.3s left ease-in-out;
+  }
+  
+  .slider .item {
+    margin-right: 10px;
+  }
+  
+  .slider .item:last-child {
+    margin-right: 0;
+  }
+  .item{
+      width: 300px;
+      margin-left: 10px;
+  }
+  
+  .ctrl {
+    text-align: center;
+    margin-top: 5px;
+  }
+  
+  .ctrl-btn {
+    padding: 20px 20px;
+    min-width: 50px;
+    background: #fff;
+    border: none;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+  
+    position: absolute;
+    top: 50%;
+    margin-top: -27.5px;
+  }
+  
+  .ctrl-btn.pro-prev {
+    left: 0;
+    outline: none;
+  }
+  
+  .ctrl-btn.pro-next {
+    right: 0;
+    outline: none;
+  }
+  
